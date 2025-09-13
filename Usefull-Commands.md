@@ -7,3 +7,8 @@ git config user.email "anwarpatel042@gmail.com"
 
 git config user.name "Anwarhacker"
 git config user.email "patelanwar647@gmail.com"
+
+
+Remove-Item -Recurse -Force .git
+git init
+
